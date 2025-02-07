@@ -10,23 +10,23 @@ Building AI agents often requires **custom tools and integrations**, but most pr
 
 With Hyperpocket, you can:
 
-- **Instantly integrate** AI tools with GitHub link and Managed services.
+- **Seamlessly integrate** AI tools from anywhere—your functions, any third party tools, git repo URL, and more.
 
-- **Customize and extend** existing tools with open-source flexibility.
+- **Securely authenticate** Simple authentication process without exposing credentials.
 
-- **Securely authenticate** API connections without exposing credentials.
+- **Go beyond Python**, supporting multi-language execution each within an isolated environment.
 
-- **Go beyond Python**, supporting multi-language execution with WASM(WebAssembly).
+- **Customize and extend** existing tools with the flexible open-source solutions.
 
 Whether you’re a researcher, developer, or product team, Hyperpocket removes friction in AI tool integration and empowers you to build without limits.
 
 ## Core Features & Benefits
 
-### 1. Instant Integration with Open-Source & Managed Tools
+### 1. Seamless Integration with Open-Source & Managed Tools
 
 Hyperpocket allows you to skip the tedious integration process and leverage existing AI tools right away.
 
-- Effortlessly integrate AI tools from any Git repository, even with just a link for GitHub repositories, no complex setup required.
+- Effortlessly connect AI tools from your functions, any third party tools, git repo URL, and more. no complex setup required.
 - Seamlessly integrate existing managed services without vendor constraints.
 - Reuse and extend existing open-source tools instead of building from scratch.
 
@@ -48,11 +48,9 @@ Unlike closed platforms, Hyperpocket is **100% open-source**, giving you complet
 
 ### 4. Multi-Language Tool Support (Experimental)
 
-While many AI tools are only available in python, Hyperpocket can run tools built with any programming language.
-Hyperpocket natively supports executing **WASM (WebAssembly)** file as a tool. Thus we can achieve supporting any languages that can be compiled into a WASM binary.
-The WASM tool only have to get inputs from standard input(i.e. `scanf`), get some configurations and credentials from environment variable, and then print(i.e. `printf` or `console.log`) the result out that LLM can understand.
+While many AI tools are only available in python, Hyperpocket can run tools built with any programming language within an isolated environment.
 
-- Run AI tools in JavaScript, and any other languages that supports WASM compilation like Rust, or Golang (to be added)
+- Run AI tools in JavaScript, and any other languages like Rust, or Golang (to be added)
 - Secure execution with isolated environments.
 - Combine tools from different ecosystems into a single workflow.
 
